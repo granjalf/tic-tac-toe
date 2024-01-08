@@ -1,0 +1,66 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+} 
+
+.board-row {
+  display: flex;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin: 10px 0px 10px 0px;
+  width: 600px;
+}
+
+.status h1 {
+  color:red;
+  text-align: center;
+}
+
+.status h2 {
+  color:blue;
+  text-align: center;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  font-size: 48px;
+  background-color: rgb(142, 142, 150);
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color:white;
+}
+
+.win {
+  color:black;
+  font-size: 80px;
+  background-color: yellow;
+  font-weight: bold;
+
+}
+
+.try-again{
+  width: 600px;
+  text-align: center;
+}
+
+.try-again button {
+  padding: 20px;
+  font-size: 30px;
+}
